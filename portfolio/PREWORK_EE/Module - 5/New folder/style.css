@@ -1,0 +1,16 @@
+<head>
+   <style>
+
+        h1 {text-align:center}
+        #para1 {color:red}
+        #para2 {color:blue}
+        #para3 {color:green}
+        #para4 {font-size:30px}
+        #para5 {font-size:8px}
+        #para6 {text-align:center}
+        #para7 {font-weight:bold}
+        #para8 {font-family:Arial}
+        #para9 {font-size:24px; Color:orange; font-weight:bold}
+        .styledFont {font-size:20px; color:green}
+        #styledImage {border-style:solid; border-color:yellow; border-width: 4px} 
+    </style>
