@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" type=text/css href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
-
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Ezekiel Enyart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./portfolio.html">Portfolio</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="https://github.com/ezekielenyart" aria-disabled="true">GitHub</a>
+            </li>
+          </ul>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-    <div class="container px-0">
-      <a class="navbar-brand text-light bg-info h-100 p-3" href="./index.html">Ezekiel Enyart</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="./index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <div class="jumbotron jumbotron-fluid">
+        </div>
+      </nav>
     <div class="container">
-      <h1 class="display-4">About Me</h1>
-      <img src="./assets/named.jpg" alt="picture">
-      <p class="lead">Father of 3, Husband of the BEST wife. Learning how to code and style.</p>
+    <div class="jumbotron ">
+        <header class="about row bg-dark text-white p-2">About Me</header>
+        <div class="row">
+            <img class = "col-sm-2 mt-2 img-thumbnail" src="./assets/named.jpg" alt="PROFILE">
+            <p class="bio col-sm-5 mt-3">Father of 3, husband to a wonderful. Becoming the best I can be is my passion.</p>
+            <div class="card col-sm-3" style="width: 18rem;">
+                <div class="card-body ">
+                  <h5 class="card-title">Contact Me</h5>
+
+                  <p class="card-text">Feel free to contact me using any method below if you have any questions!</p>
+                  <a href="./contact.html" class="card-link">Contact Form</a>
+                  <a href="./assets/resume.pdf" class="card-link">Resume</a>
+                </div>
+              </div>
+        </div>
     </div>
-  </div>
-
-
-
-
-  <footer>Copyright</footer>
+    </div>
 </body>
-
 </html>

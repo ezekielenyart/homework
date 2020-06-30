@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type=text/css href="./assets/style.css">
-</head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-    <div class="container px-0">
-      <a class="navbar-brand text-light bg-info h-100 p-3" href="./index.html">Ezekiel Enyart</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Ezekiel Enyart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./portfolio.html">Portfolio</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="https://github.com/ezekielenyart" aria-disabled="true">GitHub</a>
+            </li>
+          </ul>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        </div>
+    </nav>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class=container "cards">
-    <div class="row">
-      <div class=col-md-7>
-        <div class=container>
-          <div class="row">
-            <div class=col-md-3>
-              <div class="card" style="width: 18rem;">
+    <div class="jumbotron container">
+        <div class="card text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">RoadTrippr</h5>
+              <p class="card-text">This is a web-based application designed to help the user find points of interest as they plan and embark upon road trips.</p>
+              <a href="https://nathanszu.github.io/RoadTrippr/" class="btn btn-dark">Check out RoadTrippr!</a>
+            </div>
+          </div>
+          
+        <div class="row mt-5">
+            <div class="col-sm-6">
+              <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Cluster</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Focker</h6>
-                  <p class="card-text">My first two completed projects</p>
-                  <a href="https://ezekielenyart.github.io/portfolio/" class="card-link" target="_blank">Portfolio </a>
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <p class="card-text">A web-based application that can show the current weather conditions as well as a five-day forecast.  It also stores previously searched locations to make it easier to go back to them.</p>
+                  <a href="https://ezekielenyart.github.io/Weather-Dashboard/" class="btn btn-dark" aria-hidden="true">Check the weather!</a>
                 </div>
               </div>
-              <div class=col-md-3>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Eat</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Ship</h6>
-                    <p class="card-text">My third completed project</p>
-                    <a href="..WebAccessibility/index.html" class="card-link">Web Accessibility Test</a>
-
-                  </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Daily Planner</h5>
+                  <p class="card-text">This is a web-based application that can store activities and events for the user during the day.  The color of each hour changes based on the current time.</p>
+                  <a href="https://ezekielenyart.github.io/Daily-Planner/" class="btn btn-dark">Plan Something!</a>
                 </div>
-                <footer>Copyright</footer>
+              </div>
+            </div>
+          </div>
 
+    </div>
 </body>
-
 </html>
